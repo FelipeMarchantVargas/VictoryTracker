@@ -40,6 +40,4 @@ Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos:
 
 # **Licencia**
 
-## Licencia
 Este proyecto está licenciado bajo la [MIT License](LICENSE).
-
