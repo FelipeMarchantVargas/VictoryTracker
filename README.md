@@ -34,4 +34,6 @@ npm start
 
 # **Licencia**
 
-Este proyecto está licenciado bajo la MIT License.
+## Licencia
+Este proyecto está licenciado bajo la [MIT License](LICENSE).
+
