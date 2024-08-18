@@ -50,8 +50,15 @@ const RegisterVictory = () => {
 
     // Obtener la fecha y hora actuales
     const now = new Date();
-    const fecha = now.toISOString().split("T")[0]; // YYYY-MM-DD
-    const hora = now.toTimeString().split(" ")[0]; // HH:MM:SS
+    const opcionesFecha = {
+      timeZone: "America/Santiago",
+    };
+    const opcionesHora = {
+      timeZone: "America/Santiago",
+    };
+
+    const fecha = now.toLocaleDateString("en-CA", opcionesFecha);
+    const hora = now.toLocaleTimeString("it-IT", opcionesHora);
 
     // Insertar un nuevo juego en la tabla Juegos
     const { error: insertError } = await supabase.from("Juegos").insert([
