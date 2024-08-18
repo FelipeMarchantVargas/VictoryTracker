@@ -27,17 +27,22 @@ Si bien el proyecto está desplegado, se puede instalar en local.
 # **Contribuciones**
 
 Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos:
+
 1. Realiza un fork del proyecto.
 2. Crea una nueva rama (`git checkout -b feature/NombreRama`).
 3. Realiza tus cambios y haz un commit (`git commit -m 'Añadir nueva funcionalidad'`).
 4. Haz push a la rama (`git push origin feature/NombreRama`).
 5. Abre un Pull Request.
 
-
 # **Historial de versiones**
 
 [v1.0.0] - 12/08/2024
+
 - Se lanza la página con las funcionalidades bases, ya descritas anteriormente.
+
+[v1.0.1] - 18/08/2024
+
+- Se corrigió un problema con la zona horaria a la hora de registrar una victoria.
 
 # **Arquitectura**
 
